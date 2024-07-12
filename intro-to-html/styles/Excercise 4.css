@@ -1,0 +1,86 @@
+.back-button{
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.next-button{
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.search-result{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+}
+
+.stretch-button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    transition: padding 1s;
+}
+.stretch-button:hover{
+    padding: 10px 20px 10px 20px;
+}
+
+.shadow-button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 4px 8px 4px 8px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.shadow-button:active{
+    box-shadow: none;
+    margin: 3px 0 0 3px;
+}
+
+.one{
+    background-color: green;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border: none;
+    margin: 0 4px 0 8px;
+    cursor: pointer;
+    transition: padding 0.15,
+    margin 0.15s;
+}
+.one:hover{
+    padding: 4px 10px 4px 10px;
+    margin: 0 2px 0 6px;
+}
+.two{
+    background-color: green;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border: none;
+    margin: 0 4px 0 4px;
+    cursor: pointer;
+    transition: padding 0.15s,
+  margin 0.15s;
+}
+.two:hover{
+    padding: 4px 10px 4px 10px;
+    margin: 0 2px 0 2px;
+}
+.three{
+    background-color: green;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border: none;
+    margin: 0 0 0 4px;
+    cursor: pointer;
+    transition: padding 0.15,
+    margin 0.15s;
+}
+.three:hover{
+    padding: 4px 10px 4px 10px;
+    margin: 0 0 0 2px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 9b</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .user {
+                width: 150px;
+                border-radius: 3px;
+                box-shadow: 0 0 10px 1px rgb(161, 161, 161);
+                margin-right: 10px;
+                vertical-align: top;
+            }
+            .user-picture {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                object-position: center;
+                margin: 0 0 0 0;
+            }
+            .username {
+                margin: 4px 0 4px 4px;
+                font-weight: bold;
+                font-size: 13px;
+            }
+            .user-friends {
+                margin: 0 0 0 0;
+                color: grey;
+                font-size: 11px;
+                align-items: center;
+            }
+
+            button {
+                color: white;
+                background-color: rgb(33, 102, 252);
+                border: none;
+                padding: 8px 10px 8px 10px;
+                margin: 8px 0 6px 5px;
+                border-radius: 4px;
+            }
+
+            .picture {
+                width: 28px;
+                height: 28px;
+                object-fit: cover;
+                border-radius: 14px;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+
+            .user-grid {
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                column-gap: 15px;
+            }
+
+            .friend-grid {
+                display: grid;
+                grid-template-columns: 28px 1fr;
+                column-gap: 8px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="user-grid">
+    <div class="user">
+        <img class="user-picture" src="/intro-to-html/excercises/7-pic.webp">
+        <p class="username">Oliver</p>
+
+        <div class="friend-grid">
+
+            <div class="p-picture">
+                <img class="picture" src="/channel-pictures/channel-1.jpeg">
+            </div>
+            <div class="friends">
+                <p class="user-friends">2 mutual friends</p>
+            </div>
+
+        </div>
+        
+        <button>Add Friend</button>
+    </div>        
+    <div class="user">
+        <img class="user-picture" src="/intro-to-html/excercises/european-shorthair.jpg">
+        <p class="username">Mimi</p>
+
+        <div class="friend-grid">
+
+        <div class="p-picture">
+            <img class="picture" src="/channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="friends">
+            <p class="user-friends">3 mutual friends</p>
+        </div>
+
+        </div>
+        <button>Add Friend</button>
+    </div>         
+    <div class="user">
+        <img class="user-picture" src="/intro-to-html/excercises/kitty-cat.jpeg">
+        <p class="username">Rex</p>
+
+        <div class="friend-grid">
+
+        <div class="p-picture">
+            <img class="picture" src="/channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="friends">
+            <p class="user-friends">4 mutual friends</p>
+        </div>
+
+        </div>
+        <button>Add Friend</button>
+    </div>   
+</div>        
+    </body>
+</html>

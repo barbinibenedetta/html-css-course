@@ -1,0 +1,111 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+
+input {
+    font-family: Roboto;
+}
+
+button {
+    font-family: Roboto;
+}
+
+.corners {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 25px;
+    border-style: solid;
+    border-color: rgba(201, 197, 197, 0.726);
+}
+
+.google-search-bar {
+    padding-left: 10px;
+    height: 26px;
+    width: 400px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 13px;
+    border-color: rgba(207, 207, 207, 0.493);
+    box-shadow: 0 0 8px 1px rgba(172, 169, 169, 0.40)
+}
+
+.email {
+    color: grey;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.email-input {
+    width: 265px;
+}
+
+.by-clicking {
+    width: 300px;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a_j {
+    background-color: rgb(57, 110, 255);
+    color: white;
+    border: none;
+    width: 273px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.post {
+    vertical-align: middle;
+    border: none;
+    font-size: 13px;
+    width: 200px;
+}
+
+.tweet {
+    vertical-align: middle;
+    background-color: rgb(41, 138, 250);
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.tweet-container {
+    padding: 10px 15px 10px 15px;
+    width: 315px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgb(161, 161, 161);
+}

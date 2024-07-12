@@ -1,0 +1,178 @@
+.uber{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 115px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+
+  .uber:hover{
+    opacity: 0.7;
+  }
+
+  .amazon{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-radius: 16px;
+  font-size: 15px;
+  cursor: pointer;
+
+  }
+
+  .amazon:hover{
+    background-color: rgb(246, 207, 12);
+  }
+
+  .github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+
+  .github:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .boot1{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: 0.15s;
+  }
+  .boot1:hover{
+    background-color: rgb(106, 73, 154);
+  }
+  .boot2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .boot2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .link1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: 0.15s;
+}
+.link1:hover{
+  background-color: rgb(9, 85, 160);
+}
+  .linked{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: solid;
+    transition: background-color 0.15s;
+  }
+  .linked:hover{
+    background-color: rgba(44, 143, 243, 0.15);
+    border-width: 2px;
+  }
+
+  a{
+    color: rgb(0, 113, 133);
+    transition: 0.15s;
+  }
+  a:hover{
+    color: rgb(176, 115, 2);
+  }
+  
+  .title{
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  .price{
+    color: rgb(0, 136, 0);
+    font-weight: bold;
+  }
+
+  .cart{
+    background-color: rgb(255,216,20);
+    border: none;
+    padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+  .cart:hover{
+    background-color: rgb(230, 195, 19);
+  }
+  .cart:active{
+    opacity: 0.7;
+  }
+
+  .buy{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .buy:hover{
+    background-color: rgb(229, 148, 26);
+  }
+  .buy:active{
+    opacity: 0.7;
+  }

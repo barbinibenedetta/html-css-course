@@ -1,0 +1,81 @@
+p {
+    font-family: Arial;
+}
+
+.new {
+    text-align: center;
+    color: rgb(206, 135, 4);
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.macbook {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.supercharged {
+    text-align: center;
+    font-weight: bold;
+    font-size: 37px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.price {
+    text-align: center;
+    margin-top: 0;
+}
+
+button {
+   background-color: rgb(56, 91, 243); 
+   border: none;
+   color: white;
+   font-weight: bold;
+   height: 30px;
+   width: 50px;
+   border-radius: 15px;
+   margin-left: 210px;
+}
+
+.one-usd {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.usd {
+    font-size: 17px;
+    color: gray;
+}
+
+.today {
+    color: green;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.hours {
+    color: gray;
+    margin-top: 0;
+}
+
+.red-percentage {
+    color: red;
+}
+
+.camp-org {
+    font-weight: bold;
+}
+
+.camp-tag {
+    color: gray;
+    font-weight: normal;
+}
+
+.chp_tag {
+    color: rgb(0, 153, 255);
+}
